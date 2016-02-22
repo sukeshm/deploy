@@ -42,7 +42,7 @@ def hello():
 def publish():
     for i in range(0,len):
         if cb[i].isChecked():
-            filepath="C:/Release_enager.bat"
+            filepath="C:/Release.bat"
             input = system[i]
             print(system[i])
             p = subprocess.call([filepath,input])
@@ -54,7 +54,7 @@ def publishall():
     if reply == QtGui.QMessageBox.Yes:
         print("Publishing all")
         for i in range(0,len):
-            filepath="C:/Release_enager.bat"
+            filepath="C:/Release.bat"
             input = system[i]
             print(system[i])
             p = subprocess.call([filepath,input])
