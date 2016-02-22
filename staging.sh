@@ -1,5 +1,5 @@
 #!/bin/sh
-cd /C/Users/Sukesh/Documents/GitHub/Trustpilot
+cd /C/Users/Sukesh/Documents/GitHub/<Repository>
 git fetch --prune
 git checkout origin/master
 git branch -D staging
